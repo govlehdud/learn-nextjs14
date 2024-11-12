@@ -1,5 +1,7 @@
 # learn-nextjs14
 
+*이론이 햇갈린다면 #2.10을 다시 볼것*
+
 #Next.Js
 
 React: 라이브러리 / next.js는 프레임워크
