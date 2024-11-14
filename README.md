@@ -234,3 +234,11 @@ ex) const [movie, videos] = await Promise.all([getMovie(id), getVideos(id)]);
 
 같은 파일내 모든 css를 만들고싶지 않아서 css 모듈을 만든다!
 css 모듈파일 이름엔 name.module.css 를 해야한다.
+
+export async function generateMetadata({ params: { id } }: IParams) {
+  const movie = await getMovie(id);
+  return {
+    title: movie.title,
+  };
+}는 동적인 metadata를 만들수있다.
+- :[id] 를 받는 디테일 페이지처럼 동적으로 변하는 페이지에 대응하기위함이다 
