@@ -4,7 +4,9 @@
   "description": "*이론이 햇갈린다면 #2.10을 다시 볼것*",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
